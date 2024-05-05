@@ -1,11 +1,13 @@
+import { CommonModule } from "@angular/common";
 import { Component, OnInit } from "@angular/core";
 import { POKEMONS } from "./mock-pokemons";
 import { Pokemon } from './pokemon';
 
+
 @Component({
   selector: "app-root",
   standalone: true,
-
+imports:[CommonModule],
   templateUrl: 'app.component.html',
   // styles: [],
 })
