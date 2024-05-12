@@ -1,5 +1,5 @@
 import { Directive, ElementRef } from '@angular/core';
-
+//for test
 @Directive({
   selector: '[pkmnBorderCard]',
   standalone: true
